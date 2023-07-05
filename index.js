@@ -20,8 +20,8 @@ convertBtn.addEventListener("click", function(){
     `${inputEl.value} liters = ${literToGallons.toFixed(3)} gallons |
      ${inputEl.value} gallons = ${literToGallons.toFixed(3)} liters 
     ` 
-    massTxt.innerHTML   = `${inputEl.value} kilos = ${literToGallons.toFixed(3)} pounds |
-     ${inputEl.value} pounds = ${literToGallons.toFixed(3)} kilos 
+    massTxt.innerHTML   = `${inputEl.value} kilos = ${kilosToPounds.toFixed(3)} pounds |
+     ${inputEl.value} pounds = ${kilosToPounds.toFixed(3)} kilos 
     ` 
 })
 
