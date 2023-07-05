@@ -1,8 +1,22 @@
 body {
-    margin: auto;
+    margin: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    
 }
 
+#convertBtn:active{
+    background-color: #E3E3E3
+}
+
+
+
 .convertingContainer{
+    width: 565px;
     text-align: center;
     background-color: #6943FF;
     color: white;
@@ -11,15 +25,17 @@ body {
 
 
 #input-el{
-    width: 234px;
-    height: 166px;
+    width: 250px;
+    height: 250px;
     padding: 10px;
     display: flex;
-    margin: 15px auto;
     font-size: 50px;
     text-align: center;
     border: 2px solid #B295FF;
-     box-shadow: 4px 2px black;
+    box-shadow: 4px 2px black;
+    margin: auto;
+    background-color: transparent;
+    color: white;
 }
 
 
@@ -36,12 +52,18 @@ body {
     margin: 15px;
 }
 
+#convert-btn:active{
+    background-color: #E3E3E3
+}
+
+
 .measurementsContainer{
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #273549;
-    margin: auto
+    margin: auto;
+    padding: 20px;
     
 }
 
@@ -50,16 +72,11 @@ body {
     height: 108.57px;
     margin: 20px auto;
     padding: 20px 15px;
-    border: 7px solid white;
+    border: 7px solid #B295FF;
     border-radius: 4px;
     background-color: black;
     color: #CCC1FF;
 }
-
-
-
-
-
 
 
 
