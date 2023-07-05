@@ -11,12 +11,11 @@ let kilogram = 2.204
 convertBtn.addEventListener("click", function(){
     let meterToFeet = inputEl.value * meter
     let literToGallons = inputEl.value * liter
-     let kilosToPounds = inputEl.value * kilogram
+    let kilosToPounds = inputEl.value * kilogram
     
     lengthTxt.innerHTML = 
    `${inputEl.value} meters ${meterToFeet.toFixed(3)} = feet | 
     ${inputEl.value} feet = ${meterToFeet.toFixed(3)} meters `
-    s
     volumeTxt.innerHTML = 
     `${inputEl.value} liters = ${literToGallons.toFixed(3)} gallons |
      ${inputEl.value} gallons = ${literToGallons.toFixed(3)} liters 
