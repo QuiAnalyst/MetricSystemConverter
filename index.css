@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+}
+
+.convertingContainer{
+    text-align: center;
+    background-color: #6943FF;
+    color: white;
+    padding: 10px;
+}
+
+
+#input-el{
+    width: 234px;
+    height: 166px;
+    padding: 10px;
+    display: flex;
+    margin: 15px auto;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid #B295FF;
+     box-shadow: 4px 2px black;
+}
+
+
+
+#convert-btn{
+    width: 118px;
+    height: 42px;
+    padding: 7px 10px;
+    background-color: white;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 2px black;
+    margin: 15px;
+}
+
+.measurementsContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #273549;
+    margin: auto
+    
+}
+
+.measurements-border{
+    width: 500px;
+    height: 108.57px;
+    margin: 20px auto;
+    padding: 20px 15px;
+    border: 7px solid white;
+    border-radius: 4px;
+    background-color: black;
+    color: #CCC1FF;
+}
+
+
+
